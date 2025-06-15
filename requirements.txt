@@ -19,3 +19,26 @@ reportlab>=4.0.0
 
 # Additional utilities
 python-dateutil>=2.8.0
+
+# Existing dependencies (keep your current ones)
+streamlit
+langchain-ollama
+langchain-core
+langchain-community
+langchain
+
+# New Qdrant dependencies
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.0
+
+# Common ML dependencies (might already be installed)
+numpy
+torch
+transformers
+
+# If your existing requirements.txt has other dependencies, keep them too
+# selenium  # if you use this for scraping
+# beautifulsoup4  # if you use this for scraping
+# requests  # if you use this for scraping
+# reportlab  # if you use this for PDF export
+# Pillow  # if you use this for images
